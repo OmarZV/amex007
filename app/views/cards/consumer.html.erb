@@ -1,0 +1,84 @@
+<div class="col-sm-12">
+    <center>
+        
+        <div class="nav-bar">
+        <div id="title1">
+            AMERICAN EXPRESS
+        </div>
+        </div>
+        <div id="amex-phrase"><img id="amex-logo" src="https://www.seeklogo.net/wp-content/uploads/2018/04/american-express-logo.png" /> DON'T <span id="apply-logo">apply</span> WITHOUT IT</div>
+        <br>
+    </center>
+</div>
+
+<div class="col-md-12" id="toprow">
+    
+    <div id="step-four-left" class="col-md-3">
+        <center>
+            <img id="amex-plat2" src="https://icm.aexp-static.com/content/dam/one-amex/benefits/en_us/images/large/AirportLoungeAccessProgramOpen.jpg" />
+        </center>
+    </div>
+    <div class="col-md-2">
+        <span class="glyphicon glyphicon-road"></span>
+    </div>
+    <div class="col-md-2">
+    
+        <img id="amex-blue" src="https://icm.aexp-static.com/content/dam/one-amex/benefits/en_us/images/medium/200AirlineFeeCredit.jpg" />
+    </div>
+    
+</div>
+<br>
+<div class="col-sm-12" id="steptwobackground"> 
+    <div id="step-two-left" class="col-md-6" >
+        <br>
+        <br>
+        <br>
+    Thank you for your interest in the Platinum Card.
+    <br>
+    At this time, we need a bit more info from you before we can make a decision. 
+    <br>
+    Please follow the steps on the right side.</div>
+    <div id="step-two-right" class="col-md-6">
+    <span class="step-two-label">Additional Steps Needed:</span>
+    
+    <div class="add-id">
+        <ul class="id-list">
+            <div>
+                <span>Upload a Student ID</span><br>
+            <form>
+            <div class="form-group">
+                <input type="file" class="form-control-file" onchange="updateStudentId();">
+            </div>
+        </form>            
+        </ul>
+        <img class="student-id" class="add-id-img" src="https://i.imgur.com/XfNR3zg.png" />
+        </div>
+        
+        <div class="add-id" id="second-div">
+        <ul class="id-list">
+            <div>
+            Upload an Employee ID <br>
+        <form>
+            <div class="form-group">
+                <input type="file" class="form-control-file" onchange="updateGoogleId();">
+            </div>
+        </form>            
+        </ul>
+        <img class="google-id" class="add-id-img" src="https://i.imgur.com/EXyUGAp.png" />
+        </div>
+        </div>
+    </div>    
+    
+
+</div>
+<div class="col-sm-12"> 
+<br>
+<br>
+<center>
+<div class="btn btn-primary">
+    <%= link_to accept_path, id: "an-id", :class => "btn" do %>
+    Submit to Start Your Platinum Journey
+    <% end %>
+</center>
+</div>
+</div>
